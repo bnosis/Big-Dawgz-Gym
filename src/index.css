@@ -1,13 +1,37 @@
-body {
+html, body {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Make the main content area fill available space */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* Optional: Styling for the header, main content, and footer */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto; /* This makes the footer stick to the bottom */
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #f1f1f1;
 }

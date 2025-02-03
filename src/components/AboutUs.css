@@ -1,0 +1,67 @@
+.about-us {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.about-header {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.about-paragraph {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+    margin: -50px auto;
+
+}
+
+.about-subheader {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+.about-list li {
+    font-size: 1.1rem;
+    margin: 8px 0;
+}
+
+.about-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-button:hover {
+    background-color: #555;
+}
